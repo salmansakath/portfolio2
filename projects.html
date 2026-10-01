@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View the portfolio projects of Salmansakath, including web applications, accessible design systems, and open-source contributions.">
+    <title>Projects - Salmansakath Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://www.Salmansakathportfolio.com/projects.html">
+    <style>
+        .skip-link { position: absolute; top: -40px; left: 0; background: #000; color: white; padding: 8px; z-index: 100; }
+        .skip-link:focus { top: 0; }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="projects-heading">
+            <h1 id="projects-heading">My Projects</h1>
+            
+            <!-- Semantic Article for individual projects -->
+            <article aria-labelledby="project1-heading">
+                <h2 id="project1-heading">Accessible E-Commerce Platform</h2>
+                <figure>
+                    <img src="ecommerce-thumbnail.jpg" alt="Screenshot of the accessible e-commerce product page highlighting tab navigation.">
+                    <figcaption>A fully accessible e-commerce storefront built with React.</figcaption>
+                </figure>
+                <p>Designed and developed a shopping platform that fully complies with WCAG 2.1 AA standards, featuring robust screen reader support and keyboard navigation.</p>
+            </article>
+
+            <article aria-labelledby="project2-heading">
+                <h2 id="project2-heading">Semantic Weather App</h2>
+                <figure>
+                    <img src="weather-thumbnail.jpg" alt="Weather dashboard showing weekly forecast data in high contrast.">
+                    <figcaption>High-contrast weather dashboard application.</figcaption>
+                </figure>
+                <p>A weather application utilizing OpenWeather API. Built with strict semantic HTML5 and ARIA live regions for real-time weather updates.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Salmansakath. Built with semantic HTML5.</p>
+    </footer>
+</body>
+</html>

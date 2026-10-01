@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Personal portfolio of Salmansakath, a Front-End Web Developer specializing in accessible, semantic HTML5 and modern web design.">
+    <meta name="keywords" content="Web Developer, Portfolio, Front-End, Accessibility, HTML5, Salmansakath">
+    <meta name="author" content="Salmansakath">
+    <title>Home - Salmansakath Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://www.Salmansakathportfolio.com/">
+    
+    <!-- Minimal CSS for Accessibility Features (e.g., Skip Link) -->
+    <style>
+        /* Skip to main content link for keyboard users */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: white;
+            padding: 8px;
+            z-index: 100;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Accessibility: Skip to main content -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Hi, I'm Salmansakath</h1>
+            <p>A passionate Front-End Developer dedicated to building accessible, inclusive, and high-performing web experiences.</p>
+        </section>
+
+        <section aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>With over 5 years of experience in web development, I focus on writing semantic HTML, modular CSS, and clean JavaScript. My goal is to ensure the web is accessible to everyone.</p>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Salmansakath. Built with semantic HTML5.</p>
+        <nav aria-label="Footer Navigation">
+            <ul>
+                <li><a href="https://github.com/Salmansakath" target="_blank" rel="noopener noreferrer" aria-label="Salmansakath's GitHub Profile">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/Salmansakath" target="_blank" rel="noopener noreferrer" aria-label="Salmansakath's LinkedIn Profile">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
